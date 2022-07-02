@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard #1</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <!-- Normalize Css  -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- Css Styles  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons Styles -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <nav id="sidebar">
+        <header>
+            <div class="content">
+                <span class="img">
+                    <img src="logo.png" alt="Mahmoud Meky's Logo">
+                </span>
+                <div class="text">
+                    <h3>Mahmoud Meky</h3>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+            <div class="toggle">
+                <i class='bx bx-chevron-right'></i>
+            </div>
+        </header>
+
+        <div id="menu">
+            <ul class="menu-links">
+                <li id="search-button">
+                    <i class='bx bx-search-alt-2'></i>
+                    <input type="search" name="" id="" placeholder="Search...">
+                </li>
+                <li>
+                    <i class='bx bx-home-alt'></i>
+                    <span>Dashboard</span>
+                </li>
+                <li>
+                    <i class='bx bx-bar-chart-alt-2'></i>
+                    <span>Revenue</span>
+                </li>
+                <li>
+                    <i class='bx bx-bell'></i>
+                    <span>Notifications</span>
+                </li>
+                <li>
+                    <i class='bx bx-pie-chart-alt'></i>
+                    <span>Analytics</span>
+                </li>
+                <li>
+                    <i class='bx bx-heart'></i>
+                    <span>Likes</span>
+                </li>
+                <li>
+                    <i class='bx bx-wallet'></i>
+                    <span>Wallets</span>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <ul class="log-out">
+                <li>
+                    <i class='bx bx-log-out'></i>
+                    <span>Logout</span>
+                </li>
+                <li>
+                    <i class='bx bx-moon' id="moon"></i>
+                    <i class='bx bx-sun' id="sun"></i>
+                    <span class="switch-text">Dark Mode</span>
+                    <div id="switch">
+                    </div>
+                </li>
+            </ul>
+
+        </footer>
+    </nav>
+
+    <section id="home">
+        <h3>Home</h3>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
